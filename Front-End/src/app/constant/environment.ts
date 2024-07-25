@@ -3,5 +3,6 @@ export const API = {
   methods: {
     Category: 'Category',
     SubCategory: 'SubCategory',
+    Books: 'Books',
   }
 }
