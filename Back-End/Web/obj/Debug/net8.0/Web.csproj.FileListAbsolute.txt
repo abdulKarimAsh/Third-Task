@@ -133,7 +133,6 @@ X:\Al Takaml\Third-Task\Back-End\Web\obj\Debug\net8.0\Web.AssemblyInfo.cs
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Debug\net8.0\Web.csproj.CoreCompileInputs.cache
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Debug\net8.0\Web.MvcApplicationPartsAssemblyInfo.cs
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Debug\net8.0\Web.MvcApplicationPartsAssemblyInfo.cache
-X:\Al Takaml\Third-Task\Back-End\Web\obj\Debug\net8.0\Web.sourcelink.json
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Debug\net8.0\staticwebassets.build.json
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Debug\net8.0\staticwebassets.development.json
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Debug\net8.0\staticwebassets\msbuild.Web.Microsoft.AspNetCore.StaticWebAssets.props

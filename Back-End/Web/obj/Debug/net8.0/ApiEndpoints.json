@@ -310,6 +310,32 @@
     ]
   },
   {
+    "ContainingType": "Web.Controllers.BooksController",
+    "Method": "GetBooksBySubId",
+    "RelativePath": "api/Books/BySubId/{subId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domin.Book",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Web.Controllers.CategoryController",
     "Method": "GetAll",
     "RelativePath": "api/Category",

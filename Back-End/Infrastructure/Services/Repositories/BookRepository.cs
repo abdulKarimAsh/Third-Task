@@ -29,5 +29,11 @@ namespace Infrastructure.Services.Repositories
                 .ToList();
         }
 
+        public IEnumerable<Book> GetBooksBySubId(int subId)
+        {
+            return context.Books
+                .Where(b => b.SubCategoryId == subId)
+                .ToList();
+        }
     }
 }

@@ -27,7 +27,6 @@ X:\Al Takaml\Third-Task\Back-End\Infrastructure\obj\Debug\net8.0\Infrastructure.
 X:\Al Takaml\Third-Task\Back-End\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
 X:\Al Takaml\Third-Task\Back-End\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
 X:\Al Takaml\Third-Task\Back-End\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
-X:\Al Takaml\Third-Task\Back-End\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
 X:\Al Takaml\Third-Task\Back-End\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
 X:\Al Takaml\Third-Task\Back-End\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
 X:\Al Takaml\Third-Task\Back-End\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll

@@ -77,6 +77,21 @@ namespace Web.Controllers
             return Ok(book);
         }
 
+        [HttpGet("BySubId/{subId}")]
+        public ActionResult<Book> GetBooksBySubId(int subId)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var book = repo.GetBooksBySubId(subId);
+            if (book == null)
+            {
+                return NotFound();
+            }
+            return Ok(book);
+        }
+
         [HttpPost]
         public ActionResult<Book> Create(BookDTO book)
         {
