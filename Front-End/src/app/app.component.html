@@ -27,15 +27,19 @@
       <!-- Top navigation-->
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <div class="container-fluid" id="mainContent">
+
           <button class="btn btn-primary" id="toggleButton" (click)="toggleSidebar()">Toggle Menu</button>
+
           <button class="navbar-toggler" type="button" (click)="toggleNavbar()" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           @if(!isNavbarCollapsed){
           <div class="collapse navbar-collapse" [ngClass]="{'show': !isNavbarCollapsed}" id="navbarSupportedContent">
             <!-- محتويات التنقل -->
             <div class="list-group list-group-flush" id="sideNav">
-              <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Book</a>
-              <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">StackOverFlow</a>
+              <a class="list-group-item list-group-item-action list-group-item-light p-3"
+                [routerLink]="['Books']">Book</a>
+              <a class="list-group-item list-group-item-action list-group-item-light p-3"
+                [routerLink]="['StackOverFlow']">StackOverFlow</a>
             </div>
           </div>
           }@else {
