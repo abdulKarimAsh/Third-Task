@@ -2,6 +2,7 @@ using Domin;
 using Infrastructure.DataBeasContexts;
 using Infrastructure.Services.Generic;
 using Infrastructure.Services.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Web.DTOs;
 
@@ -22,28 +23,34 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<LibraryContext>();
+/*builder.Services.AddDbContext<LibraryContext>();*/
+builder.Services.AddDbContext<LibraryContext>(option => option.UseSqlServer(builder.Configuration["ConnectionStrings:DbConnectionString"], sqlOptions =>
+{
+    sqlOptions.EnableRetryOnFailure();
+}));
 
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IRepository<Author>, Repository<Author>>();
 builder.Services.AddScoped<IRepository<Category>, Repository<Category>>();
 builder.Services.AddScoped<ISubCategoryRepository, SupCategoryRepository>();
 
+builder.Services.AddHttpClient();
+
 
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
+/*using (var scope = app.Services.CreateScope())
 {
     var service = scope.ServiceProvider;
 
     SeedingData.Initialize(service);
-}
+}*/
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseHttpsRedirection();
 

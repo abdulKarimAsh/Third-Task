@@ -17,7 +17,6 @@ X:\Al Takaml\Third-Task\Back-End\Domin\obj\Debug\net8.0\Domin.GeneratedMSBuildEd
 X:\Al Takaml\Third-Task\Back-End\Domin\obj\Debug\net8.0\Domin.AssemblyInfoInputs.cache
 X:\Al Takaml\Third-Task\Back-End\Domin\obj\Debug\net8.0\Domin.AssemblyInfo.cs
 X:\Al Takaml\Third-Task\Back-End\Domin\obj\Debug\net8.0\Domin.csproj.CoreCompileInputs.cache
-X:\Al Takaml\Third-Task\Back-End\Domin\obj\Debug\net8.0\Domin.sourcelink.json
 X:\Al Takaml\Third-Task\Back-End\Domin\obj\Debug\net8.0\Domin.dll
 X:\Al Takaml\Third-Task\Back-End\Domin\obj\Debug\net8.0\refint\Domin.dll
 X:\Al Takaml\Third-Task\Back-End\Domin\obj\Debug\net8.0\Domin.pdb

@@ -5,7 +5,7 @@
     <div class="card-body">
       <div [innerHTML]="question.body" class="mb-4"></div>
       <h5>Author: {{ question.owner.display_name }}</h5>
-      <small>Asked on: {{ question.creation_date | date }}</small>
+      <small>Asked on: {{ question.creation_date | date:'medium' }}</small>
     </div>
   </div>
 </div>

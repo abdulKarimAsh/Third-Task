@@ -465,6 +465,32 @@
     ]
   },
   {
+    "ContainingType": "Web.Controllers.StackOverFlowController",
+    "Method": "GetQuestionDetails",
+    "RelativePath": "api/StackOverFlow/question-details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.StackOverFlowController",
+    "Method": "GetRecentQuestions",
+    "RelativePath": "api/StackOverFlow/recent-questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Web.Controllers.SubCategoryController",
     "Method": "GetAll",
     "RelativePath": "api/SubCategory",

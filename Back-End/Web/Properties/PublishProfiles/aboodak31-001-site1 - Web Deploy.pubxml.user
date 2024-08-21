@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1z4B5m7YYU6uDaq1QHg0pAAAAAACAAAAAAAQZgAAAAEAACAAAAADzwlKrgc3Y3RKf2tlqg9EEuY1fw4n8lwtLXtRtVSIRwAAAAAOgAAAAAIAACAAAACmnWVugt6Yj5jyZNqDwGLJWItu8z8orURaXMmAH6DOpCAAAACdNOOfgVJD/shr8BgKP+Ig0wfGQt8W34wOlxq/LXDCf0AAAACZTxzuglWa3B3MAiuGdfg5uXsKPnakfZRdowcj9ABKMWIa+OOZWPRUUfYGjtPcUykarCwcnbno+8pfUcDBGIe0</EncryptedPassword>
+    <History>True|2024-08-21T14:12:39.5363192Z;True|2024-08-21T17:07:49.0488554+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DbConnectionString">
+      <Value>Data Source=SQL8020.site4now.net%3bInitial Catalog=db_aac4f4_librarydb%3bUser Id=db_aac4f4_librarydb_admin%3bPassword=root1234</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
