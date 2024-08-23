@@ -3,11 +3,6 @@ import { Injectable } from '@angular/core';
 import { map, Observable } from 'rxjs';
 import { API } from '../constant/environment';
 
-
-const headers = new HttpHeaders({
-  'Content-Type': 'application/json'
-});
-
 @Injectable({
   providedIn: 'root'
 })
@@ -15,7 +10,7 @@ export class StackOverFlowService {
 
   constructor(private http: HttpClient) { }
   getRecentQuestions(): Observable<any> {
-    return this.http.get<any>(`${API.api}${API.methods.StackOverFlow}/recent-questions`, { headers: headers })
+    return this.http.get<any>(`${API.api}${API.methods.StackOverFlow}/recent-questions`, { withCredentials: true })
       .pipe(
         map(res => {
           // نتأكد أولاً أن res يحتوي على القائمة التي نتوقعها
@@ -28,11 +23,12 @@ export class StackOverFlowService {
           }
           return res;
         })
+
       );
   }
 
   getQuestionDetails(questionId: number): Observable<any> {
-    return this.http.get<any>(`${API.api}${API.methods.StackOverFlow}/question-details/${questionId}`, { headers: headers })
+    return this.http.get<any>(`${API.api}${API.methods.StackOverFlow}/question-details/${questionId}`, { withCredentials: true })
       .pipe(
         map(res => {
           // نتأكد أولاً أن res يحتوي على القائمة التي نتوقعها

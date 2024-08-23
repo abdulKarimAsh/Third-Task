@@ -33,7 +33,6 @@ X:\Al Takaml\Third-Task\Back-End\Web\obj\Release\net8.0\PubTmp\Out\System.Memory
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Release\net8.0\PubTmp\Out\System.Runtime.Caching.dll
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Release\net8.0\PubTmp\Out\System.Security.Permissions.dll
-X:\Al Takaml\Third-Task\Back-End\Web\obj\Release\net8.0\PubTmp\Out\System.Text.Json.dll
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Release\net8.0\PubTmp\Out\System.Windows.Extensions.dll
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Release\net8.0\PubTmp\Out\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
 X:\Al Takaml\Third-Task\Back-End\Web\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll

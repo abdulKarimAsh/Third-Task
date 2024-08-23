@@ -107,6 +107,8 @@ namespace Web.Controllers
             {
                 Title = book.Title,
                 PublicationYear = book.PublicationYear,
+                AuthorId = book.AuthorId,
+                SubCategoryId = book.SubCategoryId,
             };
             repo.Add(addBook);
             repo.SavaChanges();

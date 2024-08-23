@@ -48,7 +48,6 @@ X:\Al Takaml\Third-Task\Back-End\Web\bin\Release\net8.0\System.Memory.Data.dll
 X:\Al Takaml\Third-Task\Back-End\Web\bin\Release\net8.0\System.Runtime.Caching.dll
 X:\Al Takaml\Third-Task\Back-End\Web\bin\Release\net8.0\System.Security.Cryptography.ProtectedData.dll
 X:\Al Takaml\Third-Task\Back-End\Web\bin\Release\net8.0\System.Security.Permissions.dll
-X:\Al Takaml\Third-Task\Back-End\Web\bin\Release\net8.0\System.Text.Json.dll
 X:\Al Takaml\Third-Task\Back-End\Web\bin\Release\net8.0\System.Windows.Extensions.dll
 X:\Al Takaml\Third-Task\Back-End\Web\bin\Release\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 X:\Al Takaml\Third-Task\Back-End\Web\bin\Release\net8.0\de\Microsoft.CodeAnalysis.resources.dll

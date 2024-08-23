@@ -10,6 +10,6 @@ export class SubCategoryService {
   constructor(private http: HttpClient) { }
 
   get(id: any) {
-    return this.http.get<any[]>(API.api + API.methods.SubCategory + `/GetSubByCateoryId/${id}`)
+    return this.http.get<any[]>(API.api + API.methods.SubCategory + `/GetSubByCateoryId/${id}`, { withCredentials: true })
   }
 }

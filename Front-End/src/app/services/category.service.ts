@@ -10,6 +10,6 @@ export class CategoryService {
   constructor(private http: HttpClient) { }
 
   getAll() {
-    return this.http.get(API.api + API.methods.Category);
+    return this.http.get(API.api + API.methods.Category, { withCredentials: true })
   }
 }

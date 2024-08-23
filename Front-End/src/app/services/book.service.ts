@@ -10,6 +10,6 @@ export class BookService {
   constructor(private http: HttpClient) { }
 
   getBySubId(subId: number) {
-    return this.http.get(API.api + API.methods.Books + `/BySubId/${subId}`)
+    return this.http.get(API.api + API.methods.Books + `/BySubId/${subId}`, { withCredentials: true });
   }
 }
